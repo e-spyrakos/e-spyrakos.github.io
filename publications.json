@@ -1,5 +1,41 @@
 [
       {
+          "id": 44,
+          "authors":"E. Spyrakos-Papastavridis, J. S. Dai,",
+          "title":"“Adaptive Power-Shaping Signal Variable Impedance Control of Articulated Soft Robots for Compliant Interaction,”",
+          "reference":"IEEE/ASME Transactions on Mechatronics (“Minor Revision”), 2025.",
+          "year":2025
+      },
+      {
+          "id": 43,
+          "authors":"E. Spyrakos-Papastavridis, K. Wang, J. S. Dai,",
+          "title":"“Integral Action in Variable Impedance Control of Articulated-Soft Robots,”",
+          "reference":"IEEE Transactions on Automation Science and Engineering (“In press”), 2025.",
+          "year":2025
+      },
+      {
+          "id": 42,
+          "authors":"K. Wang, H. Zhang, J. S. Dai, E. Spyrakos-Papastavridis, J. Sun, R. Chen,",
+          "title":"“A Fourier-Based Function Generation Approach to Directly Obtain Defect-Free Solutions for Multi-Loop Linkage-Driven Finger Design,”",
+          "reference":"Transactions of the ASME Journal of Mechanical Design.",
+          "year":2025
+      },
+      {
+          "id": 41,
+          "authors":"N. Hadjigeorgiou, E. Spyrakos-Papastavridis, B. Metcalfe, N. Bailey,",
+          "title":"“Lattice Membrane for Improved Mechanical Characteristics of Monolithic Flexure-Hinge Based Anthropomorphic Hands,”",
+          "reference":"IEEE-RAS International Conference on Humanoid Robots (HUMANOIDS), 2025.",
+          "year":2025
+      },
+      {
+          "id": 40,
+          "authors":"Y. Yang, E. Spyrakos-Papastavridis, M. Wang, Y. Deng,",
+          "title":"“Autonomous UAV Control for Maritime Applications using Deep Reinforcement Learning-based Image Optimisation,”",
+          "reference":"IEEE/RSJ International Conference on Intelligent Robots and Systems, IROS 2025.",
+          "year":2025
+      },
+      
+      {
           "id": 39,
           "authors":"S. Chen, E. Spyrakos-Papastavridis, Y. Jin, Y. Deng,",
           "title":"“Goal-oriented Semantic Communication for Robot Arm Reconstruction in Digital Twin: Feature and Temporal Selections,”",

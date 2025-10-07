@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robots</title>
+    <link rel="Stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="dromoi-body">
+  <!--HEADER Section-->
+  <section class= "sub-header">
+    <nav>
+        <a href="index.html"><img src="img/logo.png" alt="King's Logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li  class="dromoi"><a href="dromoi.html">DROMOI LAB</a></li>
+            <li><a href="members.html">LAB MEMBERS</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="lab_videos.html">LAB VIDEOS</a></li>
+            <li><a href="robots.html">ROBOTS</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick=showMenu()></i>
+    </nav>
+    <!--<h1>Our Robots</h1>-->
+  </section>
+
+<!--
+<div class="videobg">
+      <video autoplay muted loop id="background-video">
+      <source src="./videos/origaker_ns.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+      </video>
+</div>
+-->
+
+<!--ROBOTS Content-->
+<section class="robots">
+    <h1>Meet Our Robots...</h1>
+    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu.</p>-->
+    <div class="member-cards-container">
+        <div class="member-image-container">
+            <a class="member" href=""><img src="img/robots/themis_1.jpg" alt="Themis Robot Image" width="96" height="96"></a>
+            <div class="image-text">Themis</div>
+        </div>
+        <div class="member-image-container">
+            <a class="member" href=""><img src="img/robots/bruce_1.jpg" alt="Bruce Robot Image" width="96" height="96"></a>
+            <div class="image-text">Bruce</div>
+        </div>
+        <div class="member-image-container">
+            <a class="member" href=""><img src="img/robots/origaker.gif" alt="Origaker Robot Image" width="96" height="96"></a>
+            <div class="image-text">Origaker</div>
+        </div>
+        <div class="member-image-container">
+            <a class="member" href=""><img src="img/robots/robotarm_12.jpg" alt="FR3 Robot Image" width="96" height="96"></a>
+            <div class="image-text">FR3</div>
+        </div>
+        <div class="member-image-container">
+            <a class="member" href=""><img src="img/robots/kuka_1.jpg" alt="KUKA LBR iiwa Robot Image" width="96" height="96"></a>
+            <div class="image-text">KUKA LBR iiwa</div>
+        </div>
+        <div class="member-image-container">
+            <a class="member" href=""><img src="img/robots/darwin_op3.png" alt="Darwin Robot Image" width="96" height="96"></a>
+            <div class="image-text">Darwin</div>
+        </div>
+        <div class="member-image-container">
+            <a class="member" href=""><img src="img/robots/baxter_2.jpg" alt="Baxter Robot Image" width="96" height="96"></a>
+            <div class="image-text">Baxter</div>
+        </div>
+        <div class="member-image-container">
+            <a class="member" href=""><img src="img/robots/exoskeleton5.gif" alt="Lower Limb Exoskeleton Image" width="96" height="96"></a>
+            <div class="image-text">Lower Limb Exoskeleton</div>
+        </div>
+    </div>
+    <h1>and their Domains of Application</h1>
+    <div class="robots-row">
+          <div class="robot-topic">
+            <h3>Humanoid Robots</h3>
+            <div class="robot-topic-container">
+                        <img src="img/robots/themis_1.jpg" alt="Themis 1 Robot Image">
+                        <table id="robots-table">
+                          <tr>
+                            <td class="title">Domains of Application</td>
+                            <td>#balancing<br>#locomotion<br>#ASRs<br>#pHRI</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Robots</td>
+                            <td>BRUCE 1<br>BRUCE 2<br>THEMIS<br>Darwin<br>OP3</td>
+                          </tr>
+                        </table>
+                        <img src="img/robots/bruce_1.jpg" alt="Bruce 1 Robot Image">
+            </div>
+          </div>
+
+        <div class="robot-topic">
+          <h3>Metamorphic Robots</h3>
+          <div class="robot-topic-container">
+                      <img src="img/robots/origaker.gif" alt="Origaker Robot GIF Image">
+                      <table id="robots-table">
+                        <tr>
+                          <td class="title">Domains of Application</td>
+                          <td>#self-reconfigurability<br>#metamorphosis<br>#balancing<br>#locomotion</td>
+                        </tr>
+                        <tr>
+                          <td class="title">Robots</td>
+                          <td>Origaker 1<br>Origaker 2<br>Origaker 3</td>
+                        </tr>
+                      </table>
+                      <img src="img/robots/origaker_3.png" alt="Robot Dynamics and Control Image 2">
+            </div>
+         </div>
+
+        <div class="robot-topic">
+          <h3>Lower-Limb Rehabilitation Exoskeletons</h3>
+          <div class="robot-topic-container">
+                      <img src="img/teaching/robot_dynamics_and_control1.png" alt="Robot Dynamics and Control Image 1">
+                      <table id="robots-table">
+                        <tr>
+                          <td class="title">Domains of Application</td>
+                          <td>#self-reconfigurability<br>#balancing<br>#locomotion<br>#robotic_rehabilitation</td>
+                        </tr>
+                        <tr>
+                          <td class="title">Robots</td>
+                          <td>Rotational Centre Auto-Matched Ankle Rehabilitation Exoskeleton</td>
+                        </tr>
+                      </table>
+                      <img src="img/robots/exoskeleton5.gif" alt="Exoskeleton Foot GIF Image">
+            </div>
+        </div>
+
+      <div class="robot-topic">
+        <h3>Articulated-Soft Robots (ASRs)</h3>
+        <div class="robot-topic-container">
+                    <img src="img/robots/robotarm_12.jpg" alt="FR3 1 Robot Image">
+                    <table id="robots-table">
+                      <tr>
+                        <td class="title">Domains of Application</td>
+                        <td>#pHRI<br>#ASRs<br>#non_prehensile_manipulation</td>
+                      </tr>
+                      <tr>
+                        <td class="title">Robots</td>
+                        <td>Baxter<br>Franka Research 3<br>KUKA LBR iiwa7<br>Robotic Resectoscope</td>
+                      </tr>
+                    </table>
+                    <img src="img/robots/baxter_1.jpg" alt="Baxter 1 Robot Image">
+          </div>
+      </div>
+
+      <div class="robot-topic">
+        <h3>Physical Human-Robot Interaction (pHRI)</h3>
+        <div class="robot-topic-container">
+                    <img src="img/robots/baxter_2.jpg" alt="Baxter 2 Robot Image">
+                    <table id="robots-table">
+                      <tr>
+                        <td class="title">Domains of Application</td>
+                        <td>#pHRI<br>#non_prehensile_manipulation</td>
+                      </tr>
+                      <tr>
+                        <td class="title">Robots</td>
+                        <td>Baxter<br>Franka Research 3<br>KUKA LBR iiwa7</td>
+                      </tr>
+                    </table>
+                    <img src="img/robots/robotarm_12.jpg" alt="FR3 1 Robot Image">
+          </div>
+      </div>
+
+    </div>
+</section>
+
+<!--FOOTER Section-->
+<section class="footer dromoi-footer">
+
+      <div class="footer-logo">
+        <a href="index.html"><img src="img/logo.png" alt="King's Logo"></a>
+      </div>
+      <div class="footer-links-container">
+        <div class=footer-contents>
+          <h4>CONTENTS</h4>
+          <a href="dromoi.html">DROMOI Lab</a>
+          <a href="members.html">Lab Members</a>
+          <a href="news.html">News</a>
+          <a href="lab_videos.html">Lab Videos</a>
+          <a href="robots.html">Robots</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>LINKS</h4>
+          <h5>Emmanouil Spyrakos</h5>
+          <a href="index.html">Home Page</a>
+          <a href="https://scholar.google.com/citations?user=3Ffx_CsAAAAJ&hl=en">Scholar Page</a>
+              <div class="icons">
+                  <a href="https://www.linkedin.com/in/emmanuelspyrakos/"><i class="fa fa-linkedin"></i></a><br>
+                  <a href="https://www.youtube.com/@emmanuel9482"><i class="fa fa-youtube"></i></a>
+              </div>
+        </div>
+
+      </div>
+
+</section>
+
+<!--Javascript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

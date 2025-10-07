@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research</title>
+    <link rel="Stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!--HEADER Section-->
+  <section class= "sub-header">
+    <nav>
+        <a href="index.html"><img src="img/logo.png" alt="King's Logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="research.html">RESEARCH</a></li>
+            <li><a href="publications.html">PUBLICATIONS</a></li>
+            <li><a href="teaching.html">TEACHING</a></li>
+            <li><a href="projects.html">PROJECTS & GRANTS</a></li>
+            <li><a href="videos.html">VIDEOS</a></li>
+            <li class="dromoi"><a href="dromoi.html">DROMOI LAB</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick=showMenu()></i>
+    </nav>
+    <!--<h1>Our Research</h1>-->
+  </section>
+
+<!--RESEARCH Content-->
+<section class="research">
+    <h1>DROMOI Lab Research</h1>
+    <p>Our team predominantly focuses on five distinct, yet circumstantially overlapping, robotics research areas.<br>
+      For more details relating to these research areas, please see below; for additional details about the DROMOI
+      Lab’s activities, <a href="dromoi.html">click here.</a></p>
+
+    <div class="research-row">
+      <div class="research-col">
+            <div class="research-col-left-side">
+              <img src="img/robots/humanoid_1_2.jpg" alt="Humanoid Robot">
+            </div>
+            <div class="research-col-right-side" id="humanoids">
+              <h3>Humanoid Robots</h3>
+              <p>In virtue of possessing anthropomorphic mechanical structures, (bipedal) humanoid robots are
+                ideally suited to operation in human-inhabited environments, thereby obviating the significant costs
+                incurred by the restructuring that is often necessary to render workplaces/ factory floors/ buildings
+                navigable by (non- anthropomorphic) robotic devices. However, bipedal robots are complex machines that
+                comprise numerous degrees-of-freedom (DoFs) and diminutive support polygons, and, as a result, humanoid
+                robotics constitutes one of the most challenging areas of robotics research.</p>
+            </div>
+      </div>
+
+      <div class="research-col">
+            <div class="research-col-left-side">
+              <img src="img/robots/origaker.gif" alt="Metamorphic Robot">
+            </div>
+            <div class="research-col-right-side" id="metamorphics">
+              <h3>Metamorphic Robots</h3>
+              <p>Existing robot designs tend to follow the paradigm of their biological counterparts: one specific mechanical
+                structure capable of adapting to one specific environment. Lacking the ability to transform precludes task versatility,
+                environmental adaptability, and overall autonomy. To this end, robots can be endowed with varying degrees of reconfigurability
+                to enable their kinematic structures to undergo dramatic changes. Self-reconfigurability endows a robot of a particular
+                mechanical constitution – initially capable of only performing one set of tasks – with the ability to reconfigure itself.
+                This enables it to alter its kinetic chain, (de-)activate degrees of freedom (DoFs), and switch between different types of
+                actuators/sensors, thus engendering a new realm of applications, i.e. task versatility. Genuine autonomy, task versatility,
+                and real-time responsiveness to dynamic environments by transitioning between distinct gaits/modes/media can be achieved via
+                the realisation of real-time metamorphosing robots.</p>
+            </div>
+      </div>
+
+      <div class="research-col">
+            <div class="research-col-left-side">
+              <img src="img/robots/exoskeleton5.gif" alt="Exoskeleton">
+            </div>
+            <div class="research-col-right-side" id="exoskeletons">
+              <h3>Lower-Limb Rehabilitation Exoskeletons</h3>
+              <p>Stroke, as the second leading cause of death and third leading cause of death and disability globally, has become a major
+                healthcare challenge. In the UK alone, there are 100,000 new stroke casualties every year and 1.3 million stroke survivors –
+                their treatment incurs around 1.6 billion pounds’ worth of NHS spending, and an aggregate cost of £25.6 Bn, per annum; even
+                more strikingly, the estimated global cost exceeds £566 billion. Despite the existence of manifold rehabilitation devices,
+                the problem of domestic, lower-limb rehabilitation remains unresolved. Most existing lower-limb exoskeleton are hampered by
+                their reliance on pre-configured, inadaptable hardware and software, which renders them unsuitable for stroke rehabilitation
+                in residential settings, as per the WHO’s requirements. Moreover, these devices’ inability to offer both static and dynamic
+                rehabilitation, through a single mechanical design, further compounds their applicability to residential settings. Our aim is
+                to bring robotic rehabilitation to stroke survivors’ homes at a fraction of the cost, via the development of reusable,
+                anatomically adjustable, reconfigurable lower-limb exoskeletons (visit our EPSRC REST section for more details).</p>
+            </div>
+      </div>
+
+      <div class="research-col">
+            <div class="research-col-left-side">
+              <img src="img/robots/robotarm_12.jpg" alt="Soft Robot">
+            </div>
+            <div class="research-col-right-side" id="soft">
+              <h3>Articulated-Soft Robots (ASRs)</h3>
+              <p>Traditionally, robotic devices have constituted rigid-joint machines capable of executing predefined tasks with high accuracy
+                and repeatability. Consequently, such robotic systems have been capable of executing only a limited range of tasks, and their
+                possession of “rigid joints” has been detrimental to interactional safety. Hence, one of the aims of robotic hardware design
+                research is to endow artificial machines with varying degrees of passive, mechanical compliance, which could in turn lead to
+                the realisation of interactional performance enhancement and hardware robustness/permanence. Inherently compliant robots can be
+                loosely subdivided into two categories: flexible-joint and flexible-link robots. In more recent works, one may also encounter
+                the term “articulated-soft robots” (ASRs), as a means of referring to the former category. ASRs have the potential to offer both
+                positioning accuracy and interactional safety, and there is thus an emergent requirement for more efficacious/ adaptable control
+                schemes that will pave the way for their widespread adoption in practical settings. Although ASRs are naturally backdrivable,
+                most existing algorithms do not fully exploit their immanent compliance to achieve improved interactional performance. To this
+                end, our work focuses on the development of novel interaction control techniques, based on models of ASRs’ full underactuated
+                dynamics, to render them capable of combining accurate position control with interactional safety.</p>
+           </div>
+      </div>
+
+      <div class="research-col">
+            <div class="research-col-left-side">
+              <img src="img/robots/baxter_2.jpg" alt="Soft Robot">
+            </div>
+            <div class="research-col-right-side" id="interaction">
+              <h3>Physical Human-Robot Interaction (pHRI)</h3>
+              <p>Due to the ever-increasing demand for safe symbiosis of humans and robots, within human-inhabited environments, the topic of
+                physical human–robot interaction (pHRI) has gained considerable popularity in recent years. pHRI methodologies are typically
+                divided into two main categories, namely those that pertain to hardware design, and those relating to software development. In
+                terms of the latter category, indirect force control techniques seem to prevail among roboticists, as compared to direct force
+                controllers. This may in part be attributed to the implementational complexity of direct force controllers, which typically rely
+                on environmental modelling, and/or direct usage of force feedback. Contrariwise, impedance control, qua indirect force control,
+                relies on a contact-model-free approach, which, however, also offers the user a degree of tractability over the dynamical
+                interactions between the robot and its environment. It is posited that interactional performance can be further improved through
+                online modulation of a robot’s active impedance gains—a methodology that is typically referred to as variable impedance control
+                (VIC). As a matter of fact, some works even postulate that the superior interactional, and locomotion, performance exhibited by
+                biological machines is a direct result of the level of sophistication of their immanent “VIC mechanisms” (i.e., muscular activity).
+                Despite VIC’s ability to yield improved tracking and interactional performance, active stiffness gain increases can be detrimental
+                to closed-loop stability/passivity. To this end, our group has developed methodologies capable of provably preserving closed-loop
+                stability – regardless of the impedance profile to be followed – even when applying these VIC schemes to underactuated systems,
+                such as bipedal and/or articulated-soft robots.</p>
+            </div>
+      </div>
+
+    </div>
+</section>
+
+
+
+
+<!--FOOTER Section-->
+<section class="footer">
+
+      <div class="footer-logo">
+        <a href="index.html"><img src="img/logo.png" alt="King's Logo"></a>
+      </div>
+
+      <div class="footer-links-container">
+          <div class=footer-contents>
+            <h4>CONTENTS</h4>
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="publications.html">Publications</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="projects.html">Projects & Grants</a>
+            <a href="videos.html">Videos</a>
+            <a href="dromoi.html">DROMOI Lab</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+
+          <div class="footer-links">
+            <h4>LINKS</h4>
+            <a href="https://scholar.google.com/citations?user=3Ffx_CsAAAAJ&hl=en">Scholar Page</a>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/emmanuelspyrakos/"><i class="fa fa-linkedin"></i></a><br>
+                    <a href="https://www.youtube.com/@emmanuel9482"><i class="fa fa-youtube"></i></a>
+                </div>
+          </div>
+    </div>
+</section>
+
+<!--Javascript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editorial Activities</title>
+    <link rel="Stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!--HEADER Section-->
+  <section class= "sub-header">
+    <nav>
+        <a href="index.html"><img src="img/logo.png" alt="King's Logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="research.html">RESEARCH</a></li>
+            <li><a href="publications.html">PUBLICATIONS</a></li>
+            <li><a href="teaching.html">TEACHING</a></li>
+            <li><a href="editorial.html">EDITORIAL ACTIVITIES</a></li>
+            <li><a href="projects.html">PROJECTS & GRANTS</a></li>
+            <li  class="dromoi"><a href="dromoi.html">DROMOI LAB</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick=showMenu()></i>
+    </nav>
+    <!--<h1>Editorial Activities</h1>-->
+  </section>
+
+<!-- PUBLICATIONS Content -->
+
+  <section class="editorial">
+      <div class="row">
+        <div class="edit-left">
+            <div class="contents-panel">
+                <h3>Content</h3>
+                <a href="#editorial"><div><span>Editorial Activities</span></div></a>
+                <a href="#achievements"><div><span>Achievements, Awards & Nominations</span></div></a>
+                <a href="#list-other"><div><span>Other</span></div></a>
+            </div>
+        </div>
+        <div class="edit-right">
+          <h2 id="editorial">Editorial Activities</h2>
+          <p>Currently serving as an Associate Editor for Robotica (Cambridge University Press).</p>
+          <p>Currently serving as an Associate Editor for the 2024 IEEE International Conference on Robotics and Automation (ICRA), for the area of Humanoids & Animaloids.</p>
+          <p>Served as an Associate Editor for the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).</p>
+
+          <h2 id="achievements">Achievements, Awards & Nominations</h2>
+          <p>“2022 JMR Best Paper Award” https://asmejmr.org/2023/09/05/announcing-the-2022-best-paper-award-and-honorable-mentions/.</p>
+          <p>Nominated for a “2023 King’s Education Award”.</p>
+          <p>Nominated for a “2023 IEEE Robotics and Automation Letters Distinguished Service Award-Outstanding Reviewer”.</p>
+          <p>Nominated for a “JMR 2022 Reviewer Award”.</p>
+          <p>“Best Interactive Paper Award Finalist” at HUMANOIDS 2015 (first author publication [27], Nov 2015, Seoul, South Korea).</p>
+
+          <h2 id="list-other">Other</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+        </div>
+      </div>
+  </section>
+
+<!--FOOTER Section-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br> veniam,
+      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made <i class="fa fa-heart-o"></i> by Webdesign</p>
+</section>
+
+<!--Javascript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

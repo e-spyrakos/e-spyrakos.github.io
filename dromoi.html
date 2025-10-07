@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanouil Spyrakos</title>
+    <link rel="Stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="dromoi-body">
+  <!--HEADER Section-->
+  <section class= "header">
+    <nav>
+        <a href="index.html"><img src="img/logo.png" alt="King's Logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li  class="dromoi"><a href="dromoi.html">DROMOI LAB</a></li>
+            <li><a href="members.html">LAB MEMBERS</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="lab_videos.html">LAB VIDEOS</a></li>
+            <li><a href="robots.html">ROBOTS</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick=showMenu()></i>
+    </nav>
+    <div class="text-box">
+      <h1 class="subtitle">Dynamical RObot MOtion & Interaction Lab</h1>
+      <h1>DROMOI</h1>
+      <div class="dromoi-p">
+        <p>Focuses on the establishment of analytical methods for the practical, and theoretical,
+          resolution of problems that currently impede widespread use of robotic devices within
+          human-inhabited environments.</p>
+        </div>
+        <button id="downarrow" onclick="location.href='#members'">
+            <img src="img/double-arrow-bottom-white.png" alt="down arrow" />
+        </button>
+
+    </div>
+  </section>
+
+<!--RESEARCH Section
+<section class="research">
+    <h1>Departmental Research</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu.</p>
+
+    <div class="row">
+      <div class="research-col">
+        <h3>Humanoids</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="research-col">
+        <h3>Biomimetic Robots</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="research-col">
+        <h3>Polymorphic Robots</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+</section>
+-->
+
+<section class="lab-members-dromoi" id="members">
+  <h1>Our Lab Members</h1>
+  <p>Meet the members of our lab - the DROMOI's driving force.</p>
+  <div class="member-cards-container">
+      <div class="member-image-container">
+          <a class="member" href="members.html#abdulazizalrais"><img src="img/members/Abdulaziz_Alrais.jpg" alt="Abdulaziz Alrais" width="96" height="96"></a>
+          <div class="image-text">Abdulaziz Alrais</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href="members.html#lingxingkong"><img src="img/members/Lingxing_Kong.jpg" alt="Lingxing Kong" width="96" height="96"></a>
+          <div class="image-text">Lingxing Kong</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href="members.html#nanmao"><img src="img/members/Nan_Mao.jpg" alt="Nan Mao" width="96" height="96"></a>
+          <div class="image-text">Nan Mao</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href="members.html#jafarnabeel"><img src="img/members/Jafar_Nabeel.jpg" alt="Jafar Nabeel" width="96" height="96"></a>
+          <div class="image-text">Jafar Nabeel</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href="members.html#kunwang"><img src="img/members/Kun_Wang.jpg" alt="Kun Wang" width="96" height="96"></a>
+          <div class="image-text">Kun Wang</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href="members.html#yibinwang"><img src="img/members/Yibin_Wang.jpg" alt="Yibin Wang" width="96" height="96"></a>
+          <div class="image-text">Yibin Wang</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href="members.html#shuangjiaxu"><img src="img/members/Shuangjia_Xu.jpg" alt="Shuangjia Xu" width="96" height="96"></a>
+          <div class="image-text">Shuangjia Xu</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href="members.html#zongshuozhang"><img src="img/members/Zongshuo_Zhang.png" alt="Zongshuo Zhang" width="96" height="96"></a>
+          <div class="image-text">Zongshuo Zhang</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href="members.html#linzhou"><img src="img/members/Lin_Zhou.jpg" alt="Lin Zhou" width="96" height="96"></a>
+          <div class="image-text">Lin Zhou</div>
+      </div>
+  </div>
+</section>
+
+<!--FACILITIES Section-->
+<section class="lab" id="lab">
+    <h1>Our Lab</h1>
+    <p>This is what a typical day in our lab looks like:</p>
+
+    <div class="row">
+          <div class="lab-col">
+              <img src="img/dromoi/lab1.jpg" alt="Library">
+              <!--<div class="layer"></div>
+                  <h3>LAB 1</h3>-->
+          </div>
+          <div class="lab-col">
+            <img src="img/lab2.jpg" alt="Lab">
+            <!--<div class="layer"></div>
+                <h3>LAB 1</h3>-->
+          </div>
+          <div class="lab-col">
+              <img src="img/dromoi/lab4.jpg" alt="Theatre">
+              <!--<div class="layer"></div>
+                  <h3>LAB 1</h3>-->
+          </div>
+    </div>
+</section>
+
+<section class="lab-members-dromoi" id="members">
+  <h1>Our Robots</h1>
+  <p>Meet our Robots -- pictures of our bipeds, quadrupeds, transformers, articulated-soft robots, manipulators,
+    and exoskeletons can be seen below:</p>
+  <div class="member-cards-container">
+      <div class="member-image-container">
+          <a class="member" href=""><img src="img/robots/themis_1.jpg" alt="Themis Robot Image" width="96" height="96"></a>
+          <div class="image-text">Themis</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href=""><img src="img/robots/bruce_1.jpg" alt="Bruce Robot Image" width="96" height="96"></a>
+          <div class="image-text">Bruce</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href=""><img src="img/robots/origaker.gif" alt="Origaker Robot Image" width="96" height="96"></a>
+          <div class="image-text">Origaker</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href=""><img src="img/robots/robotarm_12.jpg" alt="FR3 Robot Image" width="96" height="96"></a>
+          <div class="image-text">FR3</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href=""><img src="img/robots/kuka_1.jpg" alt="KUKA LBR iiwa Robot Image" width="96" height="96"></a>
+          <div class="image-text">KUKA LBR iiwa</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href=""><img src="img/robots/darwin_op3.png" alt="Darwin Robot Image" width="96" height="96"></a>
+          <div class="image-text">Darwin</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href=""><img src="img/robots/baxter_2.jpg" alt="Baxter Robot Image" width="96" height="96"></a>
+          <div class="image-text">Baxter</div>
+      </div>
+      <div class="member-image-container">
+          <a class="member" href=""><img src="img/robots/exoskeleton5.gif" alt="Lower Limb Exoskeleton Image" width="96" height="96"></a>
+          <div class="image-text">Lower Limb Exoskeleton</div>
+      </div>
+  </div>
+  <p>For further information about our robots, please visit our "Robots" page via this<a href="robots.html"> link.</a></p>
+</section>
+
+
+<!--VENUES Section
+<section class="venues" id="venues">
+    <h1>Venues</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu.</p>
+
+    <div class="row">
+          <div class="venues-col">
+              <img src="img/university.jpg" alt="Library">
+              <h3>World Class Buildings</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut.</p>
+          </div>
+          <div class="venues-col">
+              <img src="img/basketball.jpg" alt="Library">
+              <h3>Largest Playground</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut.</p>
+          </div>
+          <div class="venues-col">
+              <img src="img/restaurant.jpg" alt="Library">
+              <h3>Excellent Food</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut.</p>
+          </div>
+    </div>
+</section>
+-->
+
+<!--TESTIMONIALS Section
+<section class="testimonials">
+    <h1>Testimonials</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu.</p>
+
+    <div class="row">
+          <div class="testimonials-col">
+              <img src="img/user1.jpg" alt="Library">
+              <div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut.</p>
+                <h3>Jusef Al Otaiba</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+          </div>
+          <div class="testimonials-col">
+              <img src="img/user2.jpg" alt="Library">
+              <div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut.</p>
+                <h3>Jochar Barzani</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+          </div>
+    </div>
+</section>
+-->
+
+<section class="news-dromoi" id="news">
+      <h1>News and Events</h1>
+      <div class="hide">
+        <div class="news-card" id="">
+            <div class="news-card-left">
+              <img src="" alt="">
+            </div>
+            <div class="news-card-right">
+              <h3></h3>
+              <h5 class="news-date"></h5>
+              <h5 class="news-venue"></h5>
+              <button onclick= "clickNewsItem()" class="more-btn">Read More</button>
+              <div id="hidden-id"></div>
+           </div>
+         </div>
+      </div>
+</section>
+
+
+<!--CALL TO ACTION Section-->
+<section class="cta">
+    <p>"In any problem it’s always worth tapping into the technology that already exists – for us, that’s nature."</p>
+    <p class="retor"><a href="https://www.kcl.ac.uk/news/kings-reconfigurable-robot-wins-prestigious-best-paper-award">Excerpt from interview on 2022 JMR Best Paper Award</a></p>
+</section>
+
+<!--FOOTER Section-->
+<section class="footer dromoi-footer">
+
+      <div class="footer-logo">
+        <a href="index.html"><img src="img/logo.png" alt="King's Logo"></a>
+      </div>
+      <div class="footer-links-container">
+        <div class=footer-contents>
+          <h4>CONTENTS</h4>
+          <a href="dromoi.html">DROMOI Lab</a>
+          <a href="members.html">Lab Members</a>
+          <a href="news.html">News</a>
+          <a href="lab_videos.html">Lab Videos</a>
+          <a href="robots.html">Robots</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>LINKS</h4>
+          <h5>Emmanouil Spyrakos</h5>
+          <a href="index.html">Home Page</a>
+          <a href="https://scholar.google.com/citations?user=3Ffx_CsAAAAJ&hl=en">Scholar Page</a>
+              <div class="icons">
+                  <a href="https://www.linkedin.com/in/emmanuelspyrakos/"><i class="fa fa-linkedin"></i></a><br>
+                  <a href="https://www.youtube.com/@emmanuel9482"><i class="fa fa-youtube"></i></a>
+              </div>
+        </div>
+
+      </div>
+
+</section>
+
+<!--Javascript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+</script>
+<script src="news-dromoi.js"></script>
+</body>
+</html>

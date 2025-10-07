@@ -1,0 +1,313 @@
+[
+      {
+          "id": 39,
+          "authors":"S. Chen, E. Spyrakos-Papastavridis, Y. Jin, Y. Deng,",
+          "title":"“Goal-oriented Semantic Communication for Robot Arm Reconstruction in Digital Twin: Feature and Temporal Selections,”",
+          "reference":"IEEE Journal on Selected Areas in Communications, 2025.",
+          "year":2025
+      },
+
+     {
+         "id": 38,
+         "authors":"S. Morris, E. Spyrakos-Papastavridis, M. French, M. Howard,",
+         "title":"“Multiple Model Based Online Surface Estimation During Collisions,”",
+         "reference":"IEEE International Conference on Robotics, Automation, and Artificial Intelligence, 2024.",
+         "year":2024
+     },
+
+     {
+        "id": 37,
+        "authors":"S. Chen, E. Spyrakos-Papastavridis, Y. Jin, Y. Deng,",
+        "title":"“Goal-oriented Semantic Communication for Robotic Arm Reconstruction in Digital Twin,”",
+        "reference":"IEEE GLOBECOM, 2024.",
+        "year":2024
+    },
+
+    {
+       "id": 36,
+       "authors":"N. Mao, J. Chen, E. Spyrakos-Papastavridis, J. S. Dai,",
+       "title":"“Dynamic modeling of wheeled biped robot and controller design for reducing chassis tilt angle,”",
+       "reference":"Robotica, pp. 1-29, 2024.",
+       "year":2024
+    },
+
+    {
+       "id": 35,
+       "authors":"E. Spyrakos-Papastavridis, J. S. Dai, P. R. N. Childs,",
+       "title":"“Confutation of the “Counterexample to Passivity Preservation for Variable Impedance Control of Compliant Robots””",
+       "reference":"IEEE/ASME Transactions on Mechatronics, vol. 29, no. 6, pp. 4023-4032, 2024.",
+       "year":2024
+    },
+
+    {
+       "id": 34,
+       "authors":"E. Spyrakos-Papastavridis, J. S. Dai,",
+       "title":"“A variable impedance scheme based on power-shaping signals and partial knowledge of link-side dynamics for flexible-joint robot interaction and tracking control,”",
+       "reference":"IEEE/ASME Transactions on Mechatronics, vol. 29, no. 1, 2024.",
+       "year":2024
+    },
+
+    {
+       "id": 33,
+       "authors":"Y. -H. Lin, T. Wang, E. Spyrakos-Papastavridis, Z. Fu, S. Xu, J. S. Dai,",
+       "title":"“Minimum Friction Coefficient-based Precision Manipulation Workspace Analysis of the Three-fingered Metamorphic Hand,”",
+       "reference":"Transactions of the ASME Journal of Mechanisms and Robotics, vol. 15, no. 5, 051018, 2023.",
+       "year":2023
+    },
+
+    {
+       "id": 32,
+       "authors":"T. Wang, Y. H. Lin, E. Spyrakos-Papastavridis, S. Q. Xie, J. S. Dai,",
+       "title":"“Stiffness evaluation of a novel ankle rehabilitation exoskeleton with a type-variable constraint,”",
+       "reference":"Mechanism and Machine Theory, vol. 179, 2023.",
+       "year":2023
+    },
+
+    {
+       "id": 31,
+       "authors":"X. Lei, Z. Fu, E. Spyrakos-Papastavridis, J. Pan, M. Li, X. Chen,",
+       "title":"“IHUVS: Infinite Homography-Based Uncalibrated Methodology for Robotic Visual Servoing,”",
+       "reference":"IEEE Transactions on Industrial Electronics, DOI: 10.1109/TIE.2023.3279519, 2023.",
+       "year":2023
+    },
+
+    {
+       "id": 30,
+       "authors":"T. Wang, E. Spyrakos-Papastavridis, J. S. Dai,",
+       "title":"“Design and Analysis of a Novel Reconfigurable Ankle Rehabilitation Exoskeleton Capable of Matching the Mobile Biological Joint Centre in Real-Time,”",
+       "reference":"Transactions of the ASME Journal of Mechanisms and Robotics, vol. 15, no. 1, 2023.",
+       "year":2023
+    },
+
+    {
+       "id": 29,
+       "authors":"T. Wang, E. Olivoni, E. Spyrakos-Papastavridis, R. J. O’Connor, J. S. Dai,",
+       "title":"“Novel Design of a Rotation Center Auto-Matched Ankle Rehabilitation Exoskeleton With Decoupled Control Capacity,”",
+       "reference":"ASME Journal of Mechanical Design, vol. 144, no. 5, 2022.",
+       "year":2022
+    },
+
+    {
+       "id": 28,
+       "authors":"E. Spyrakos-Papastavridis, Z. Fu, J. S. Dai,",
+       "title":"“Power-Shaping Model-based Control with Feedback Deactivation for Flexible-Joint Robot Interaction,”",
+       "reference":"IEEE Robotics and Automation Letters (RA-L), vol. 7, no. 2, 2022 (ICRA).",
+       "year":2022
+    },
+
+    {
+       "id": 27,
+       "authors":"E. Spyrakos-Papastavridis, J. S. Dai,",
+       "title":"“Stable Flexible-Joint Floating-base Robot Balancing and Locomotion via Variable Impedance Control,”",
+       "reference":"IEEE Transactions on Industrial Electronics, vol. 70, no. 3, 2022.",
+       "year":2022
+    },
+
+    {
+       "id": 26,
+       "authors":"Z. Tang, K. Wang, E. Spyrakos-Papastavridis, J. S. Dai,",
+       "title":"“Origaker: A Novel Multi-Mimicry Quadruped Robot Based on A Metamorphic Mechanism,”",
+       "reference":"Transactions of the ASME Journal of Mechanisms and Robotics, vol. 14, no. 6, 2022 (“2022 JMR Best Paper Award”).",
+       "year":2022
+    },
+
+    {
+       "id": 25,
+       "authors":"Z. Song, T. Ma, K. Qi, E. Spyrakos-Papastavridis, S. Zhang, R. Kang,",
+       "title":"“A Trajectory Tracking Control Based on a Terminal Sliding Mode for a Compliant Robot with Nonlinear Stiffness Joints,”",
+       "reference":"Micromachines, vol. 13, no. 3, 2022.",
+       "year":2022
+    },
+
+    {
+       "id": 24,
+       "authors":"C. Qiu, K. Wang, H. Dong, E. Spyrakos-Papastavridis, J. S. Dai,",
+       "title":"“A Repelling-Screw-Based Approach for the Construction of Generalized Jacobian Matrices for Nonredundant Parallel Manipulators,”",
+       "reference":"Mechanism and Machine Theory, vol. 176, 2022.",
+       "year":2022
+    },
+
+    {
+       "id": 23,
+       "authors":"E. Spyrakos-Papastavridis, J. S. Dai, P. R. N. Childs,",
+       "title":"Closure to “Discussion: Selective-Compliance-Based Lagrange Model and Multilevel Noncollocated Feedback Control of a Humanoid Robot”",
+       "reference":"Transactions of the ASME Journal of Mechanisms and Robotics, vol. 14, no. 5, 2022.",
+       "year":2022
+    },
+
+    {
+       "id": 22,
+       "authors":"E. Spyrakos-Papastavridis, J. S. Dai,",
+       "title":"“Flexible-Joint Humanoid Balancing Augmentation via Full-State Feedback Variable Impedance Control,”",
+       "reference":"Transactions of the ASME Journal of Mechanisms and Robotics, vol. 13, no. 2, 2021.",
+       "year":2021
+    },
+
+    {
+       "id": 21,
+       "authors":"E. Spyrakos-Papastavridis, J. S. Dai,",
+       "title":"“Minimally Model-Based Trajectory Tracking and Variable Impedance Control of Flexible-Joint Robots,”",
+       "reference":"IEEE Transactions on Industrial Electronics, vol. 68, no. 7, 2021.",
+       "year":2021
+    },
+
+    {
+       "id": 20,
+       "authors":"Z. Fu, J. Pan, E. Spyrakos-Papastavridis, Y. –H. Lin, X. Zhou, X. Chen, J. S. Dai,",
+       "title":"“A Lie-Theory-Based Dynamic Parameter Identification Methodology for Serial Manipulators,”",
+       "reference":"IEEE/ASME Transactions on Mechatronics, vol. 26, no. 5, 2021.",
+       "year":2021
+    },
+
+    {
+       "id": 19,
+       "authors":"E. Spyrakos-Papastavridis, J. S. Dai,",
+       "title":"“A Model-Free Solution for Stable Balancing and Locomotion of Floating-base Legged Systems,”",
+       "reference":"IEEE/RSJ International Conference on Intelligent Robots and Systems, IROS, pp. 3816-3822, 2020.",
+       "year":2020
+    },
+
+    {
+       "id": 18,
+       "authors":"Z. Fu, J. Pan, E. Spyrakos-Papastavridis, X. Chen, M. Li,",
+       "title":"“A dual quaternion-based approach for coordinate calibration of dual robots in collaborative motion,”",
+       "reference":"IEEE Robotics and Automation Letters, vol. 5, no. 3, 2020.",
+       "year":2020
+    },
+
+    {
+       "id": 17,
+       "authors":"Z. Fu, E. Spyrakos-Papastavridis, Y. –H. Lin, J. S. Dai,",
+       "title":"“Analytical Expressions of Serial Manipulator Jacobians and their High-Order Derivatives based on Lie Theory,”",
+       "reference":"IEEE International Conference on Robotics and Automation, IEEE International Conference on Robotics and Automation, ICRA 2020.",
+       "year":2020
+    },
+
+    {
+       "id": 16,
+       "authors":"E. Spyrakos-Papastavridis, P. R. N. Childs, J. S. Dai,",
+       "title":"“Passivity Preservation for Variable Impedance Control of Compliant Robots,”",
+       "reference":"IEEE/ASME Transactions on Mechatronics, vol. 25, no. 5, 2019.",
+       "year":2019
+    },
+
+    {
+       "id": 15,
+       "authors":"E. Spyrakos-Papastavridis, N. Kashiri, P. Childs, N. Tsagarakis,",
+       "title":"“Online Impedance Regulation Techniques for Compliant Humanoid Balancing,”",
+       "reference":"Robotics and Autonomous Systems, vol. 104, pp. 85-98, 2018.",
+       "year":2018
+    },
+
+    {
+       "id": 14,
+       "authors":"E. Spyrakos-Papastavridis, J. S. Dai, P. R. N. Childs, N. G. Tsagarakis,",
+       "title":"“Selective-Compliance-Based Lagrange Model and Multilevel Noncollocated Feedback Control of a Humanoid Robot,”",
+       "reference":"ASME Journal of Mechanisms and Robotics, vol. 10, no. 3, 031009, 2018.",
+       "year":2018
+    },
+
+    {
+       "id": 13,
+       "authors":"E. Spyrakos-Papastavridis, P. Childs, N. Tsagarakis,",
+       "title":"“An Analysis of the Effect of Feedback on Compliant Biped Walking Controllers,”",
+       "reference":"IEEE International Workshop on Advanced Motion Control, AMC 2018.",
+       "year":2018
+    },
+
+    {
+       "id": 12,
+       "authors":"E. Spyrakos-Papastavridis, P. R. Childs, N. G. Tsagarakis,",
+       "title":"“Variable Impedance Walking using Time-Varying Lyapunov Stability Margins,”",
+       "reference":"IEEE-RAS International Conference on Humanoid Robots, HUMANOIDS 2017.",
+       "year":2017
+    },
+
+    {
+       "id": 11,
+       "authors":"N. Kashiri, E. Spyrakos-Papastavridis, D. G. Caldwell, N. G. Tsagarakis,",
+       "title":"“Exploiting the Natural Dynamics of Compliant Joint Robots for Cyclic Motions,”",
+       "reference":"IEEE International Conference on Methods and Models in Automation and Robotics, MMAR 2017.",
+       "year":2017
+    },
+
+    {
+       "id": 10,
+       "authors":"E. Spyrakos-Papastavridis, D. G. Caldwell, N. G. Tsagarakis,",
+       "title":"“Balance and Impedance Optimization Control for Compliant Humanoid Stepping,”",
+       "reference":"IEEE/RSJ International Conference on Intelligent Robots and Systems, IROS 2016.",
+       "year":2016
+    },
+
+    {
+       "id": 9,
+       "authors":"E. Spyrakos-Papastavridis, N. Kashiri, J. Lee, N. G. Tsagarakis, D. G. Caldwell,",
+       "title":"“Online Impedance Parameter Tuning for Compliant Biped Balancing,”",
+       "reference":"IEEE-RAS International Conference on Humanoid Robots, HUMANOIDS 2015 (“Best Interactive Paper Award Finalist”).",
+       "year":2015
+    },
+
+    {
+       "id": 8,
+       "authors":"E. Spyrakos-Papastavridis, D. Kanoulas, N. Tsagarakis, D. G. Caldwell,",
+       "title":"“Optically-Regulated Impedance-Based Balancing for Humanoid Robots,”",
+       "reference":"IEEE-RAS International Conference on Humanoid Robots, HUMANOIDS 2015.",
+       "year":2015
+    },
+
+    {
+       "id": 7,
+       "authors":"M. Mosadeghzad, N. Karavas, A. Ajoudani, E. Spyrakos-Papastavridis, N. G. Tsagarakis, D. G. Caldwell,",
+       "title":"“Optimal Human-Inspired Ankle Stiffness Regulation for Humanoid Balancing Control,”",
+       "reference":"IEEE-RAS International Conference on Humanoid Robots, HUMANOIDS 2014.",
+       "year":2014
+    },
+
+    {
+       "id": 6,
+       "authors":"E. Spyrakos-Papastavridis, N. Perrin, N. Tsagarakis, J. Dai and D. G. Caldwell,",
+       "title":"“Lyapunov Stability Margins for Humanoid Robot Balancing,”",
+       "reference":"IEEE/RSJ International Conference on Intelligent Robots and Systems, IROS 2014.",
+       "year":2014
+    },
+
+    {
+       "id": 5,
+       "authors":"E. Spyrakos-Papastavridis, G. Medrano-Cerda, N. G. Tsagarakis, J. S. Dai and D. G. Caldwell,",
+       "title":"“A Compliant Humanoid Walking Strategy Based on the Switching of State Feedback Gravity Compensation Controllers,”",
+       "reference":"IEEE/RSJ International Conference on Intelligent Robots and Systems, IROS 2013.",
+       "year":2013
+    },
+
+    {
+       "id": 4,
+       "authors":"E. Spyrakos-Papastavridis, G. Medrano-Cerda, N. G. Tsagarakis, J. S. Dai and D. G. Caldwell,",
+       "title":"“Gravity Compensation Control of Compliant Joint Systems with Multiple Drives,”",
+       "reference":"IEEE International Conference on Robotics and Automation, ICRA 2013.",
+       "year":2013
+    },
+
+    {
+       "id": 3,
+       "authors":"E. Spyrakos-Papastavridis, G. Medrano-Cerda, N. G. Tsagarakis, J. S. Dai and D. G. Caldwell,",
+       "title":"“A Push Recovery Strategy for a Passively Compliant Humanoid Robot using Decentralized LQR Controllers,”",
+       "reference":"IEEE International Conference on Mechatronics, ICM 2013.",
+       "year":2013
+    },
+
+    {
+       "id": 2,
+       "authors":"E. Spyrakos-Papastavridis, G. Medrano-Cerda, J. S. Dai and D. G. Caldwell",
+       "title":"“Global Stability Study of A Compliant Double-Inverted Pendulum Based on Hamiltonian Modeling,”",
+       "reference":"ASME International Design and Technical Conferences & Computers and Information in Engineering Conference, IDETC/CIE 2012.",
+       "year":2012
+    },
+
+    {
+       "id": 1,
+       "authors":"B. Ugurlu, N. Tsagarakis, E. Spyrakos-Papastavridis, D. Caldwell,",
+       "title":"“Compliant joint modification and real-time dynamic walking implementation on bipedal robot ccub,”",
+       "reference":"IEEE International Conference on Mechatronics, ICM 2011.",
+       "year":2011
+    }
+]

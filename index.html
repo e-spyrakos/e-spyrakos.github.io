@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="Stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!--HEADER Section-->
+  <section class= "sub-header">
+    <nav>
+        <a href="index.html"><img src="img/logo.png" alt="King's Logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="research.html">RESEARCH</a></li>
+            <li><a href="publications.html">PUBLICATIONS</a></li>
+            <li><a href="teaching.html">TEACHING</a></li>
+            <li><a href="projects.html">PROJECTS & GRANTS</a></li>
+            <li><a href="videos.html">VIDEOS</a></li>
+            <li class="dromoi"><a href="dromoi.html">DROMOI LAB</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick=showMenu()></i>
+    </nav>
+    <!-- <h1>Emmanouil Spyrakos</h1> -->
+  </section>
+
+<!-- HOME Content -->
+
+  <section class="home">
+      <div class="row">
+          <div class="home-left">
+              <div class="person-card">
+                  <img src="img/espyrakos.jpg" alt="Emmanouil Spyrakos Photo" style="width:100%">
+                  <h3>Emmanouil Spyrakos Papastavridis</h3>
+                  <p class="person-title">Senior Lecturer <br>(Associate Professor) <br>in Robotics</p>
+                  <p>King's College London</p>
+                  <!--<a href="#"><i class="fa fa-dribbble"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>-->
+                  <a href="https://www.linkedin.com/in/emmanuelspyrakos/"><i class="fa fa-linkedin"></i></a>
+                  <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                  <p><a href="contact.html"><button>Contact</button></a></p>
+              </div>
+          </div>
+          <div class="home-right">
+              <h1 class="slide-in">Bio</h1>
+              <p>Emmanouil Spyrakos - Papastavridis received the B.Sc. degree in Electronic and Electrical engineering from
+                  University College London (UCL), London, U.K., the M.Sc. degree in Mechatronics from King’s College London (KCL),
+                  London, U.K., and the Ph.D. degree in Humanoid Robotics from Istituto Italiano di Tecnologia (IIT), Genoa, Italy.</p>
+              <p>He was a Postdoctoral Researcher with the Department of Advanced Robotics, Istituto Italiano di Tecnologia, a Visiting
+                  Researcher at the Dyson School of Design Engineering, Imperial College London, a Postdoctoral Research Associate
+                  with the Department of Engineering, KCL, and later a Lecturer (Assistant Professor) with the same department.</p>
+              <p>His research interests include Articulated-Soft Robots, (Bipedal) Humanoid Robots, Nonlinear Control, Physical
+                  Human-Robot Interaction, Metamorphic Legged Robots, and Exoskeletons.</p>
+              <p>Dr. Spyrakos was a recipient of the 2022 Journal
+                  of Mechanisms and Robotics Best Paper Award, and a finalist for the Best Interactive Paper Award at Humanoids 2015.</p>
+              <p>He was Principal Investigator of the Engineering and Physical Sciences Research Council (EPSRC) REST project and
+                  is currently serving as an Associate Editor for Robotica (Cambridge University Press).</p>
+                <!-- <a href="" class="more-btn red-btn">EXPLORE NOW</a> -->
+          </div>
+      </div>
+  </section>
+
+  <!--RESEARCH Content-->
+  <section class="research-home fade-in" id="research">
+        <h1 class="slide-in">Research Interests</h1>
+        <div class="research-home-row">
+              <div class="research-topic">
+                <img src="img/robots/humanoid_1_2.jpg" alt="Humanoid Robot">
+                <h3>Humanoid Robots</h3>
+                <a href="research.html#humanoids" class="more-btn">Read More</a>
+              </div>
+              <div class="research-topic">
+                <img src="img/robots/origaker.gif" alt="Metamorphic Robot">
+                <h3>Metamorphic Robots</h3>
+                <a href="research.html#metamorphics" class="more-btn">Read More</a>
+              </div>
+              <div class="research-topic">
+                <img src="img/robots/exoskeleton5.gif" alt="Exoskeleton">
+                <h3>Lower-Limb Rehabilitation Exoskeletons</h3>
+                <a href="research.html#exoskeletons" class="more-btn">Read More</a>
+                </div>
+              <div class="research-topic">
+                <img src="img/robots/robotarm_12.jpg" alt="Soft Robot">
+                <h3>Articulated-Soft Robots (ASRs)</h3>
+                <a href="research.html#soft" class="more-btn">Read More</a>
+              </div>
+              <div class="research-topic">
+                <img src="img/robots/robotarm_21.jpg" alt="Soft Robot">
+                <h3>Physical Human-Robot Interaction (pHRI)</h3>
+                <a href="research.html#interaction" class="more-btn">Read More</a>
+              </div>
+      </div>
+    </section>
+
+    <!--PUBLICATIONS Content-->
+    <section class="publications-recent fade-in" id="publications-recent">
+          <h1 class="slide-in">Recent Publications</h1>
+          <div class="publications-recent-row"></div>
+          <a href="publications.html" class="more-btn">View Full List of Publications</a>
+    </section>
+
+
+      <section class="patents fade-in" id="patents">
+            <h1 class="slide-in">Patents</h1>
+            <div class="patents-row">
+
+                <div class="patent-topic">
+                    <div class="patent-image">
+                        <img src="img/patents/patent5.png" alt="Patent 5">
+                    </div>
+                    <div class="patent-other">
+                    <h3>‘Robotic Vehicle for Spraying’, U.S. Patent Office</h3>
+                    <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=US436102765&_fid=WO2019043377"><p>Patent no. 20240253075, 2024.</p></a>
+                  </div>
+                </div>
+
+                <div class="patent-topic">
+                    <div class="patent-image">
+                        <img src="img/patents/patent4a.png" alt="Patent 4">
+                    </div>
+                    <div class="patent-other">
+                        <h3>‘Robotic Vehicle for Spraying’, European Patent Office</h3>
+                        <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=EP298187220&_fid=WO2019043377"><p>Patent no. 3676019, 2020.</p></a>
+                    </div>
+                </div>
+
+                <div class="patent-topic">
+                    <div class="patent-image">
+                        <img src="img/patents/patent3a.png" alt="Patent 3">
+                    </div>
+                    <div class="patent-other">
+                        <h3>Sensor apparatus, UK (UK Patent)</h3>
+                        <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=GB323762365&_fid=WO2019043377"><p>Patent no. 2588852, 2021.</p></a>
+                    </div>
+                  </div>
+
+                  <div class="patent-topic">
+                      <div class="patent-image">
+                          <img src="img/patents/patent2a.png" alt="Patent 2">
+                      </div>
+                      <div class="patent-other">
+                          <h3>'Sensor apparatus for protecting a sensor device and a robotic vehicle comprising the sensor apparatus, UK (UK Patent)</h3>
+                          <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=GB238739407&_fid=WO2019043377"><p>Patent no. 2566136, 2019.</p></a>
+                      </div>
+                  </div>
+
+                  <div class="patent-topic">
+                      <div class="patent-image">
+                          <img src="img/patents/patent1a.png" alt="Patent 1">
+                      </div>
+                      <div class="patent-other">
+                          <h3>‘Robotic Vehicle for Spraying’, WO (International Patent)</h3>
+                          <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2019043377&_cid=P20-M827YF-22575-1"><p>Patent no. WO/2019/043377, 2019.</p></a>
+                      </div>
+                    </div>
+            </div>
+      </section>
+
+      <section class="achievements fade-in" id="achievements">
+            <h1 class="slide-in">Awards & Nominations</h1>
+            <div class="achievements-row">
+                    <div class="achievement-topic">
+                          <div class="achievement-image">
+                              <img src="img/2022_best_paper_award.jpg" alt="2022 Best Paper Award">
+                          </div>
+                          <div class="achievement-other">
+                              <p><a href="https://asmejmr.org/2023/09/05/announcing-the-2022-best-paper-award-and-honorable-mentions/">“2022 JMR Best Paper Award”</a></p>
+                          </div>
+                    </div>
+
+                    <div class="achievement-topic">
+                          <div class="achievement-image">
+                              <img src="img/logo.png" alt="King’s Education Award">
+                          </div>
+                          <div class="achievement-other">
+                              <p>Nominated for a “2023 King’s Education Award”.</p>
+                          </div>
+                    </div>
+
+                    <div class="achievement-topic">
+                          <div class="achievement-image">
+                              <img src="img/journal_logos/robotics_and_automation_letters.jpg" alt="Robotics and Automation Copyright (c) 2018 Copyright Holder All Rights Reserved.etters">
+                          </div>
+                          <div class="achievement-other">
+                              <p>Nominated for a “2023 IEEE Robotics and Automation Letters Distinguished Service Award-Outstanding Reviewer”.</p>
+                          </div>
+                    </div>
+
+                    <div class="achievement-topic">
+                          <div class="achievement-image">
+                              <img src="img/journal_logos/journal_of_mechanisms_and_robotics.png" alt="JMR 2022 Reviewer Award">
+                          </div>
+                          <div class="achievement-other">
+                              <p>Nominated for a “JMR 2022 Reviewer Award”.</p>
+                          </div>
+                    </div>
+
+                    <div class="achievement-topic">
+                          <div class="achievement-image">
+                              <img src="img/2015_best_interactive_paper_finalist.jpg" alt="Best Interactive Paper Award Finalist">
+                          </div>
+                          <div class="achievement-other">
+                              <p>“Best Interactive Paper Award Finalist”, HUMANOIDS 2015 (Nov 2015, Seoul, South Korea).</p>
+                          </div>
+                    </div>
+              </div>
+      </section>
+
+      <!--
+      <section class="talks fade-in" id="talks">
+            <h1 class="slide-in">Invited Talks and Lectures</h1>
+            <div class="talks-row">
+                    <div class="talk-topic">
+                      <img src="img/kagour.jpg" alt="Abdulaziz Alrais">
+                      <h3>Articulated Soft Robots</h3>
+                      <p>Invited talk at Tianjin University (TJU) on 18 July 2023 (all expenses paid by TJU, including honorarium).</p>
+                    </div>
+                    <div class="talk-topic">
+                      <img src="img/kagour.jpg" alt="Abdulaziz Alrais">
+                      <h3>Physical Human-Robot Interaction (pHRI)</h3>
+                      <p>Invited talk at the Wuhan Institute of Technology on 20 July 2023.</p>
+                    </div>
+                    <div class="talk-topic">
+                      <img src="img/kagour.jpg" alt="Abdulaziz Alrais">
+                      <h3>Physical Human-Robot Interaction (pHRI)</h3>
+                      <p>I was an invited speaker at the “Advanced International Forum I” that was organised by the Southern University of Science & Technology (SUSTech), on 11 December 2023, for which I received an honorarium.</p>
+                    </div>
+                    <div class="talk-topic">
+                      <img src="img/kagour.jpg" alt="Abdulaziz Alrais">
+                      <h3>Physical Human-Robot Interaction (pHRI)</h3>
+                      <p>Invited talk at the Wuhan University of Technology on 19 March 2024.</p>
+                    </div>
+                    <div class="talk-topic">
+                      <img src="img/kagour.jpg" alt="Abdulaziz Alrais">
+                      <h3>Physical Human-Robot Interaction (pHRI)</h3>
+                      <p>I have been invited to deliver a one-week robotics lecture series at the Wuhan University of Technology, between July and August 2024 (all expenses to be paid by the institution, including an honorarium).</p>
+                    </div>
+              </div>
+  </section>
+-->
+
+<section class="editorial-home fade-in" id="editorial">
+      <h1 class="slide-in">Editorial Activities</h1>
+      <div class="editorial-home-row">
+
+        <div class="editorial-topic">
+              <div class="editorial-image">
+                <img src="img/journal_logos/robotica_front_page.jpg" alt="Robotica Home Page">
+              </div>
+              <div class="editorial-other">
+                <p>Currently serving as an Associate Editor for Robotica (Cambridge University Press).</p>
+              </div>
+        </div>
+        <div class="editorial-topic">
+              <div class="editorial-image">
+                <img src="img/journal_logos/sage_logo.png" alt="SAGE Publishing">
+              </div>
+              <div class="editorial-other">
+                <p>Incoming Associate Editor of Design for Augmented Humanity (SAGE Publishing)</p>
+              </div>
+        </div>
+        <div class="editorial-topic">
+              <div class="editorial-image">
+                <img src="img/journal_logos/icra_2024_logo.jpg" alt="ICRA 2024 Logo">
+              </div>
+              <div class="editorial-other">
+                <p>Served as an Associate Editor for the 2024 IEEE International Conference on Robotics and Automation (ICRA), for the area of Humanoids & Animaloids.</p>
+              </div>
+        </div>
+        <div class="editorial-topic">
+              <div class="editorial-image">
+                <img src="img/journal_logos/iros_2021_logo.jpg" alt="IROS 2021 Logo">
+              </div>
+              <div class="editorial-other">
+                <p>Served as an Associate Editor for the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).</p>
+              </div>
+        </div>
+
+      </div>
+</section>
+
+
+<section class="projects-home fade-in" id="projects">
+      <h1 class="slide-in">Projects & Grants</h1>
+      <div class="projects-home-row">
+
+            <a href="projects.html#rest">
+                <div class="project-topic">
+                    <div class="project-image">
+                      <img src="img/journal_logos/ukri_epsrc.png" alt="EPSRC">
+                    </div>
+                    <div class="project-other">
+                      <p>“REST: Reconfigurable lower limb Exoskeleton for effective Stroke Treatment in residential settings”,
+                        EPSRC Standard Research Grant (REST), Apr 2019-Apr 2023, £1.1M (Principal Investigator, PI – £413k assigned to KCL).</p>
+                    </div>
+                </div>
+           </a>
+
+           <a href="projects.html#trajectory">
+                <div class="project-topic">
+                      <div class="project-image">
+                        <img src="img/journal_logos/royal_society.jpg" alt="Royal Society">
+                      </div>
+                      <div class="project-other">
+                        <p>“Precise Trajectory-Tracking Control for Robotic Seam Welding based on Multi-Sensor Fusion”, Royal Society
+                          International Exchanges 2021 (China-UK), Mar 2022-present, £12k (Principal Investigator, PI).</p>
+                      </div>
+                </div>
+            </a>
+
+            <a href="projects.html#partnerships">
+                <div class="project-topic">
+                      <div class="project-image">
+                        <img src="img/journal_logos/ukri.jpg" alt="UKRI">
+                      </div>
+                      <div class="project-other">
+                        <p>“KCL and Sirius Constellation Ltd Knowledge Transfer Partnerships 21_22” KTP KCL , KTP: 2021 to 2022 (UKRI),
+                          Jan 2022-Oct 2023, £204k (Principal Investigator, PI).</p>
+                      </div>
+                </div>
+            </a>
+
+            <div class="more-projects">
+                <a href="projects.html" class="more-btn">View Full List of Projects and Grants</a>
+            </div>
+      </div>
+</section>
+
+
+<!--FOOTER Section-->
+<section class="footer">
+
+      <div class="footer-logo">
+        <a href="index.html"><img src="img/logo.png" alt="King's Logo"></a>
+      </div>
+
+      <div class="footer-links-container">
+          <div class=footer-contents>
+            <h4>CONTENTS</h4>
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="publications.html">Publications</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="projects.html">Projects & Grants</a>
+            <a href="videos.html">Videos</a>
+            <a href="dromoi.html">DROMOI Lab</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+
+          <div class="footer-links">
+            <h4>LINKS</h4>
+            <a href="https://scholar.google.com/citations?user=3Ffx_CsAAAAJ&hl=en">Scholar Page</a>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/emmanuelspyrakos/"><i class="fa fa-linkedin"></i></a><br>
+                    <a href="https://www.youtube.com/@emmanuel9482"><i class="fa fa-youtube"></i></a>
+                </div>
+          </div>
+    </div>
+</section>
+
+<!--Javascript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+</script>
+<script src="publications-home.js"></script>
+</body>
+</html>

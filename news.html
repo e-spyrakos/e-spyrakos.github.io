@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="Stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="dromoi-body">
+  <!--HEADER Section-->
+  <section class= "sub-header">
+    <nav>
+        <a href="index.html"><img src="img/logo.png" alt="King's Logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li  class="dromoi"><a href="dromoi.html">DROMOI LAB</a></li>
+            <li><a href="members.html">LAB MEMBERS</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="lab_videos.html">LAB VIDEOS</a></li>
+            <li><a href="robots.html">ROBOTS</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick=showMenu()></i>
+    </nav>
+    <!--<h1>News and Events</h1>-->
+  </section>
+
+<!--NEWS Content-->
+<section class="news">
+    <h1>News and Events</h1>
+    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu.</p>-->
+
+    <div class="row">
+
+    </div>
+</section>
+
+
+<!--FOOTER Section-->
+<section class="footer dromoi-footer">
+
+      <div class="footer-logo">
+        <a href="index.html"><img src="img/logo.png" alt="King's Logo"></a>
+      </div>
+      <div class="footer-links-container">
+        <div class=footer-contents>
+          <h4>CONTENTS</h4>
+          <a href="dromoi.html">DROMOI Lab</a>
+          <a href="members.html">Lab Members</a>
+          <a href="news.html">News</a>
+          <a href="lab_videos.html">Lab Videos</a>
+          <a href="robots.html">Robots</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>LINKS</h4>
+          <h5>Emmanouil Spyrakos</h5>
+          <a href="index.html">Home Page</a>
+          <a href="https://scholar.google.com/citations?user=3Ffx_CsAAAAJ&hl=en">Scholar Page</a>
+              <div class="icons">
+                  <a href="https://www.linkedin.com/in/emmanuelspyrakos/"><i class="fa fa-linkedin"></i></a><br>
+                  <a href="https://www.youtube.com/@emmanuel9482"><i class="fa fa-youtube"></i></a>
+              </div>
+        </div>
+
+      </div>
+
+</section>
+
+<!--Javascript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+</script>
+<script src="news-main.js"></script>
+</body>
+</html>

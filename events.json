@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "./img/events/kings_impact_reception/kings_impact_reception1.png",
+        "Heading": "King's Impact Reception",
+        "Date": "May 14, 2024",
+        "Venue": "Bush House, Strand Campus, London",
+        "bgColor": "rgb(205, 255, 223)",
+        "para": "The King’s Impact Reception is hosted by the Vice-Chancellor and is an annual fixture in the King’s calendar. It brings together key internal and external stakeholders, donors, alumni and academics to find out more about the breadth and depth of King’s work and be inspired by its impact."
+    },
+    {
+        "id": 2,
+        "imageUrl": "./img/events/innovation_late/innovation_late_1.jpg",
+        "Heading": "Royal Academy of Engineering<br>Innovation Late",
+        "Date": "November 13, 2024",
+        "Venue": "Vauxhall Food & Beer Garden and the Arches, 6A South Lambeth Place, London",
+        "bgColor": "rgb(255, 246, 209)",
+        "para": "An evening extravaganza to experience and discover the innovations that are tipped to make the future a better place for people and planet."
+    },
+    {
+        "id": 3,
+        "imageUrl": "./img/events/festival_of_tomorrow/festival_of_tomorrow1.jpg",
+        "Heading": "Festival of Tomorrow Finale",
+        "Date": "February 21 & 22, 2025",
+        "Venue": "Swindon",
+        "bgColor": "rgb(206, 191, 255)",
+        "para": "Festival of Tomorrow blends the creative arts with research and innovation to explore the ideas that will shape our shared future. Centred in Swindon, the hub of UK research and innovation, it uses a range of formats to bring local audiences, researchers, creative practitioners and cultural organisations together to share knowledge, ideas and research."
+    }
+]

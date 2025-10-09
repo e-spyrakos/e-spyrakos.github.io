@@ -1,11 +1,18 @@
 [
       {
-          "id": 44,
+          "id": 45,
           "authors":"E. Spyrakos-Papastavridis, J. S. Dai,",
           "title":"“Adaptive Power-Shaping Signal Variable Impedance Control of Articulated Soft Robots for Compliant Interaction,”",
           "reference":"IEEE/ASME Transactions on Mechatronics (“Minor Revision”), 2025.",
           "year":2025
       },
+      {
+          "id": 44,
+          "authors":"N. Mao, G. Jia, J. Chen, E. Spyrakos-Papastavridis, J. S. Dai,",
+          "title":"“Kinetostatics and Particle-Swarm Optimization of Vehicle-Mounted Underactuated Metamorphic Loading Manipulators,”",
+          "reference":"Mechanism and Machine Theory, 2025.",
+          "year":2025
+      },      
       {
           "id": 43,
           "authors":"E. Spyrakos-Papastavridis, K. Wang, J. S. Dai,",
@@ -347,3 +354,4 @@
        "year":2011
     }
 ]
+

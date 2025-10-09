@@ -1,9 +1,16 @@
 [
       {
-          "id": 45,
+          "id": 46,
           "authors":"E. Spyrakos-Papastavridis, J. S. Dai,",
           "title":"“Adaptive Power-Shaping Signal Variable Impedance Control of Articulated Soft Robots for Compliant Interaction,”",
           "reference":"IEEE/ASME Transactions on Mechatronics (“Minor Revision”), 2025.",
+          "year":2025
+      },
+      {
+          "id": 45,
+          "authors":"E. Spyrakos-Papastavridis, K. Wang, J. S. Dai,",
+          "title":"“Stability-Guaranteed Control via Divergent-Component-of-Motion Feedback for Force-based Balancing in Articulated-Soft Floating-Base Robots,”",
+          "reference":"IEEE Robotics and Automation Letters (“Accepted”), 2025.",
           "year":2025
       },
       {
@@ -354,5 +361,6 @@
        "year":2011
     }
 ]
+
 
 

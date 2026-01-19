@@ -52,6 +52,10 @@ nav img {
     width: 150px;
 }
 
+nav img .new-lab-logo {
+    width: 300px;
+}
+
 .nav-links {
     flex: 1;
     text-align: right;
@@ -2248,3 +2252,4 @@ box-sizing: border-box;
   font-weight: 700;
   font-style: normal;
 }
+

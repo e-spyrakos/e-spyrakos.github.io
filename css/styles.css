@@ -52,7 +52,7 @@ nav img {
     width: 150px;
 }
 
-nav img .new-lab-logo {
+nav .new-lab-logo img {
     width: 300px;
 }
 
@@ -2252,4 +2252,5 @@ box-sizing: border-box;
   font-weight: 700;
   font-style: normal;
 }
+
 

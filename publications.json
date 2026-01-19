@@ -1,9 +1,23 @@
 [
       {
+          "id": 48,
+          "authors":"L. Kong, K. Wang, R. M'Halla Ep Aounallah, J. S. Dai, E. Spyrakos-Papastavridis,",
+          "title":"“Kinematic and Dexterity Analysis for Stable Jacobian-Switching Control of a Real-Time Reconfigurable Robotic Mechanism,”",
+          "reference":"Transactions of the ASME Journal of Mechanisms and Robotics  (“Accepted”), 2026.",
+          "year":2026
+      },
+      {
+          "id": 47,
+          "authors":"Z. Chen, X. Zhang, Z. Wu, Y. Zhao, Y. Wang, N. Lepora, L. Jamone, E. Spyrakos-Papastavridis, J. Deng, S. Luo,",
+          "title":"“Training Tactile Sensors to Learn Force Sensing from Each Other,”",
+          "reference":"Nature Communications ("In Press”), 2026.",
+          "year":2026
+      },
+      {
           "id": 46,
           "authors":"E. Spyrakos-Papastavridis, J. S. Dai,",
           "title":"“Adaptive Power-Shaping Signal Variable Impedance Control of Articulated Soft Robots for Compliant Interaction,”",
-          "reference":"IEEE/ASME Transactions on Mechatronics (“Accepted”), 2025.",
+          "reference":"IEEE/ASME Transactions on Mechatronics (“Early Access”), 2025.",
           "year":2025
       },
       {
@@ -361,6 +375,7 @@
        "year":2011
     }
 ]
+
 
 
 

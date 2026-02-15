@@ -1,9 +1,23 @@
 [
       {
+          "id": 50,
+          "authors":"Y. Wang, L. Zhou, S. Morris, E. Spyrakos-Papastavridis,",
+          "title":"“Iterative Learning-based Centre-of-Mass Impedance Control for Articulated-Soft Humanoid Robots,”",
+          "reference":"IEEE International Conference on Robotics and Automation (“Accepted”), 2026.",
+          "year":2026
+      },
+      {
+          "id": 49,
+          "authors":"Y. Zhao, H. Luo, Y. Wang, M. Leonetti, E. Spyrakos-Papastavridis, Y. Demiris, S. Luo,",
+          "title":"“ViTac-Tracing: Visual-Tactile Imitation Learning of Deformable Object Tracing,”",
+          "reference":"IEEE International Conference on Robotics and Automation  (“Accepted”), 2026.",
+          "year":2026
+      },
+      {
           "id": 48,
           "authors":"L. Kong, K. Wang, R. M'Halla Ep Aounallah, J. S. Dai, E. Spyrakos-Papastavridis,",
           "title":"“Kinematic and Dexterity Analysis for Stable Jacobian-Switching Control of a Real-Time Reconfigurable Robotic Mechanism,”",
-          "reference":"Transactions of the ASME Journal of Mechanisms and Robotics  (“Accepted”), 2026.",
+          "reference":"Transactions of the ASME Journal of Mechanisms and Robotics  (“In Press”), 2026.",
           "year":2026
       },
       {
@@ -375,6 +389,7 @@
        "year":2011
     }
 ]
+
 
 
 

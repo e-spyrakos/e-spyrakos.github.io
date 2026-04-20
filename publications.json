@@ -1,5 +1,19 @@
 [
       {
+          "id": 52,
+          "authors":"K. Wang, X. Li, R. Jiang, E. Spyrakos-Papastavridis, J. S. Dai,",
+          "title":"“Repelling-Screw-Based Force/Motion Transmissibility Analysis of Cable-Driven Parallel Robots,”",
+          "reference":"Mechanism and Machine Theory (“Accepted”), 2026.",
+          "year":2026
+      },
+      {
+          "id": 51,
+          "authors":"Y. Zhao, X. Zhang, Z. Chen, M. Leonetti, E. Spyrakos-Papastavridis, S. Luo,",
+          "title":"“Visual-Tactile Peg-in-Hole Assembly Learning from Peg-out-of-Hole Disassembly,”",
+          "reference":"IEEE Robotics and Automation Letters (“Accepted”), 2026.",
+          "year":2026
+      },
+      {
           "id": 50,
           "authors":"Y. Wang, L. Zhou, S. Morris, E. Spyrakos-Papastavridis,",
           "title":"“Iterative Learning-based Centre-of-Mass Impedance Control for Articulated-Soft Humanoid Robots,”",

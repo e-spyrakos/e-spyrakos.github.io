@@ -1,5 +1,12 @@
 [
       {
+          "id": 53,
+          "authors":"Z. Fu, L. Li, Y. Wang, E. Spyrakos-Papastavridis, M. Li, J. S. Dai, X. Chen,",
+          "title":"“Robotic Assembly Skill Learning with Lie-Theory-Based Dynamic Movement Primitives and Variable Admittance Control,”",
+          "reference":"Mechanism and Machine Theory (“Accepted”), 2026.",
+          "year":2026
+      },
+      {
           "id": 52,
           "authors":"K. Wang, X. Li, R. Jiang, E. Spyrakos-Papastavridis, J. S. Dai,",
           "title":"“Repelling-Screw-Based Force/Motion Transmissibility Analysis of Cable-Driven Parallel Robots,”",

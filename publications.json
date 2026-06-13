@@ -1,5 +1,12 @@
 [
       {
+          "id": 54,
+          "authors":"A. Alrais, K. Wang, J. S. Dai, E. Spyrakos-Papastavridis,",
+          "title":"“Design and Control of an Enhanced Self-Reconfigurable Parallel Ankle Rehabilitation Exoskeleton,”",
+          "reference":"Design for Augmented Humanity (“Accepted”), 2026.",
+          "year":2026
+      },
+      {
           "id": 53,
           "authors":"Z. Fu, L. Li, Y. Wang, E. Spyrakos-Papastavridis, M. Li, J. S. Dai, X. Chen,",
           "title":"“Robotic Assembly Skill Learning with Lie-Theory-Based Dynamic Movement Primitives and Variable Admittance Control,”",

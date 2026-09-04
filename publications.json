@@ -1,5 +1,19 @@
 [
       {
+          "id": 56,
+          "authors":"L. Kong, A. Alrais, R. M'Halla, J. S. Dai, E. Spyrakos-Papastavridis,",
+          "title":"“Internally-Hidden Linkage for In-Operation Reconfiguration of a 3-RPS Parallel Mechanism: Screw-Theoretic Jacobians and Workspace Indices,”",
+          "reference":"Transactions of the ASME Journal of Mechanisms and Robotics  (“In Press”), 2026.",
+          "year":2026
+      },
+      {
+          "id": 55,
+          "authors":"S. Wang, J. Chen, W. Zhang, Y. Chai, X. Feng, Z. Zeng, L. Zhou, Y. Wang, S. Peng, Y. Pan, E. Spyrakos-Papastavridis, Z. Tang, J. Dai,",
+          "title":"“Teleoperation of Humanoid Robots Based on Chiral Mapping and Vision-Language Model Assistance,”",
+          "reference":"SCIENTIA SINICA Technologica (“Accepted”), 2026.",
+          "year":2026
+      },
+      {
           "id": 54,
           "authors":"A. Alrais, K. Wang, J. S. Dai, E. Spyrakos-Papastavridis,",
           "title":"“Design and Control of an Enhanced Self-Reconfigurable Parallel Ankle Rehabilitation Exoskeleton,”",

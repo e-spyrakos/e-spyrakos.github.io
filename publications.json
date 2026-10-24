@@ -1,5 +1,19 @@
 [
       {
+          "id": 58,
+          "authors":"L. Zhou, Y. Wang, A. Alrais, E. Spyrakos-Papastavridis,",
+          "title":"“Compliant Motion Generation via Reinforcement Learning-based Centre-of-Mass Impedance Modulation for Floating-base Robots,”",
+          "reference":"IEEE-RAS International Conference on Humanoid Robots, HUMANOIDS 2026 (“Accepted”), 2026.",
+          "year":2026
+      },
+      {
+          "id": 57,
+          "authors":"A. Alrais, K. Wang, J. S. Dai, E. Spyrakos-Papastavridis,",
+          "title":"“Design and Control of a Self-Reconfigurable Parallel Ankle Rehabilitation Exoskeleton,”",
+          "reference":"Parallel 2026 (“Accepted”), 2026.",
+          "year":2026
+      },
+      {
           "id": 56,
           "authors":"L. Kong, A. Alrais, R. M'Halla, J. S. Dai, E. Spyrakos-Papastavridis,",
           "title":"“Internally-Hidden Linkage for In-Operation Reconfiguration of a 3-RPS Parallel Mechanism: Screw-Theoretic Jacobians and Workspace Indices,”",

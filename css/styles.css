@@ -908,6 +908,7 @@ h3{
 #modules td, #modules th, #robots-table td, #robots-table th {
     border: 1px solid #ddd;
     padding: 4px;
+    text-align: center;
 }
 
 #modules td.title, #robots-table td.title {

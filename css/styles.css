@@ -52,12 +52,6 @@ nav img {
     width: 150px;
 }
 
-nav .new-lab-logo {
-    width: 400px;
-    height: auto;
-    margin-left: 30px;
-}
-
 .nav-links {
     flex: 1;
     text-align: right;
@@ -774,7 +768,7 @@ h3{
 }
 
 .project-topic img {
-  width: 40%;
+  width: 50%;
   height: auto;
   margin-right: 20px;
   object-fit: contain;
@@ -908,7 +902,6 @@ h3{
 #modules td, #modules th, #robots-table td, #robots-table th {
     border: 1px solid #ddd;
     padding: 4px;
-    text-align: center;
 }
 
 #modules td.title, #robots-table td.title {
@@ -1691,16 +1684,11 @@ box-sizing: border-box;
 }
 
 .image-text {
-  padding-left: 2px;
-  padding-right: 2px;
-  text-align: center;
-  background-color: white;
-  /*position: absolute;*/
-  position: relative;
+  position: absolute;
   bottom: 8px;
-  /*right: 13px;*/
+  right: 13px;
   font-size: 0.6em;
-  color: #000000;
+  color: #00ff00;
   font-weight: bold;
 }
 
@@ -2260,7 +2248,3 @@ box-sizing: border-box;
   font-weight: 700;
   font-style: normal;
 }
-
-
-
-

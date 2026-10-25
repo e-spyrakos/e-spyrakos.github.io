@@ -1685,11 +1685,16 @@ box-sizing: border-box;
 }
 
 .image-text {
-  position: absolute;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  background-color: white;
+  /*position: absolute;*/
+  position: relative;
   bottom: 8px;
-  right: 13px;
+  /*right: 13px;*/
   font-size: 0.6em;
-  color: #00ff00;
+  color: #000000;
   font-weight: bold;
 }
 

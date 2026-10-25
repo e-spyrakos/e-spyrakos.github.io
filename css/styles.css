@@ -1632,6 +1632,7 @@ h3{
 
 .videos-home .row {
       margin-top: 3%;
+      flex-wrap: wrap;
 }
 
 .video-container{
